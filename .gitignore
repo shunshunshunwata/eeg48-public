@@ -19,3 +19,8 @@ reports/
 
 # Local configs
 config.local.*
+
+# macOS metadata
+.DS_Store
+__MACOSX/
+._*
