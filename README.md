@@ -1,4 +1,5 @@
 # EEG48 (public) — Reproducible EEG + Audio Affect Pipeline
+![CI](https://github.com/shunshunshunwata/eeg48-public/actions/workflows/ci.yml/badge.svg)
 
 A public-ready research codebase for an EEG × audio affect study workflow (ERP/TFR features, LOSO CV, permutation tests),
 packaged as **one-command pipelines** with **single-page HTML reports**.
