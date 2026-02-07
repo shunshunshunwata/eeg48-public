@@ -1,0 +1,29 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .[dev]
+      - name: Lint (compile)
+        run: |
+          python -m compileall -q src
+      - name: CLI smoke (synthetic)
+        run: |
+          eeg48 --help
+          eeg48 make-synth --out /tmp/eeg48_demo
+          eeg48 results-card --run-dir /tmp/eeg48_demo/moduleB_outputs
+          eeg48 privacy-scan --root . --out /tmp/privacy_scan.json
+      - name: Tests
+        run: |
+          pytest -q

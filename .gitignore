@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data / outputs (keep private or reproducible only)
+data_private/
+derivatives/
+module*_outputs/
+reports/
+*.fif
+*.edf
+*.bdf
+
+# Local configs
+config.local.*

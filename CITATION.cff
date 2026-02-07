@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EEG48: Reproducible EEG + Audio Emotion Pipeline"
+type: software
+authors:
+  - family-names: "YourFamilyName"
+    given-names: "YourGivenName"
+version: "0.6.0"
+date-released: "2026-02-07"
+license: "MIT"

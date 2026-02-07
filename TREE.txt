@@ -1,0 +1,132 @@
+/mnt/data/eeg48_public_ultimate_v0.6.0
+├── archive_raw/
+    ├── __MACOSX/
+    ├── 48Θƒ│πü«τë⌐τÉåτÜäτë╣σ╛┤ΘçÅ.ipynb
+    ├── 48Θƒ│Σ╕╗Φª│Φ⌐òΣ╛í.ipynb
+    ├── build_4p2_docx.py
+    ├── make_moduleA_extras.py
+    ├── make_raw_epoch_example.py
+    ├── make_real_erp_tfr_figs.py
+    ├── moduleA_define_subjective_targets.ipynb
+    ├── moduleB_export_top_features.py
+    ├── moduleB_phaseB_EEG_only.ipynb
+    ├── moduleB_phaseB_EEG_only.py
+    ├── moduleB_roi_loso.py
+    ├── moduleB_roi_loso_v2.py
+    ├── moduleB_temporal_generalization_v2.py
+    ├── moduleC_prime_full_script.ipynb
+    ├── moduleD_ambiguous_sounds_and_individual_diff_FINAL.ipynb
+    ├── plot_moduleB_importance_decompose_abscoef_v4.py
+    ├── plot_moduleB_maps.py
+    ├── run_4p2_all.sh
+    ├── Untitled.ipynb
+    ├── Untitled1.ipynb
+    ├── Untitled2.ipynb
+    ├── Γæí48Θƒ│EEGσëìσçªτÉå.ipynb
+    ├── ΓæÑ τ╡▒σÉêΦºúµ₧Éµ║ûσéÖ.ipynb
+    ├── Γæñ48Θƒ│EEG.ipynb
+    ├── Γæó48Θƒ│QC.ipynb
+    └── Γæúπâ₧πé╣πé┐πâ╝ index.ipynb
+├── data/
+    └── README.md
+├── docs/
+    ├── ARCHITECTURE.md
+    ├── FIGURE_INDEX.md
+    └── PORTFOLIO.md
+├── examples/
+    └── synthetic_project/
+        └── moduleB_outputs/
+            ├── figs/
+            ├── report/
+            ├── tables/
+            ├── metrics.json
+            └── README.txt
+├── notebooks/
+    ├── _original/
+        ├── 48Θƒ│πü«τë⌐τÉåτÜäτë╣σ╛┤ΘçÅ.ipynb
+        ├── 48Θƒ│Σ╕╗Φª│Φ⌐òΣ╛í.ipynb
+        ├── moduleA_define_subjective_targets.ipynb
+        ├── moduleB_phaseB_EEG_only.ipynb
+        ├── moduleC_prime_full_script.ipynb
+        ├── moduleD_ambiguous_sounds_and_individual_diff_FINAL.ipynb
+        ├── Untitled.ipynb
+        ├── Untitled1.ipynb
+        ├── Untitled2.ipynb
+        ├── Γæí48Θƒ│EEGσëìσçªτÉå.ipynb
+        ├── ΓæÑ τ╡▒σÉêΦºúµ₧Éµ║ûσéÖ.ipynb
+        ├── Γæñ48Θƒ│EEG.ipynb
+        ├── Γæó48Θƒ│QC.ipynb
+        └── Γæúπâ₧πé╣πé┐πâ╝ index.ipynb
+    ├── 04_quality_control__Γæó48Θƒ_QC.ipynb
+    ├── 05_master_index__Γæúπâ_πé_πé_πâ_index.ipynb
+    ├── 06_eeg_modeling__moduleB_phaseB_EEG_only.ipynb
+    ├── 06_eeg_modeling__Γæí48Θƒ_EEGσëìσçªτÉå.ipynb
+    ├── 06_eeg_modeling__Γæñ48Θƒ_EEG.ipynb
+    ├── 99_misc__48Θƒ_πü_τë_τÉåτÜäτë_σ_ΘçÅ.ipynb
+    ├── 99_misc__48Θƒ_Σ_Φª_Φ_òΣ_í.ipynb
+    ├── 99_misc__moduleA_define_subjective_targets.ipynb
+    ├── 99_misc__moduleC_prime_full_script.ipynb
+    ├── 99_misc__moduleD_ambiguous_sounds_and_individual_diff_FINAL.ipynb
+    ├── 99_misc__Untitled.ipynb
+    ├── 99_misc__Untitled1.ipynb
+    ├── 99_misc__Untitled2.ipynb
+    ├── 99_misc__ΓæÑ_τ_σÉêΦºúµ_Éµ_ûσéÖ.ipynb
+    └── RENAMING_MAP.csv
+├── scripts/
+    ├── demo_synth.sh
+    ├── run_all.sh
+    ├── run_module_a.sh
+    ├── run_module_b.sh
+    ├── run_module_c.sh
+    └── run_module_d.sh
+├── src/
+    ├── eeg48/
+        ├── __pycache__/
+            ├── __init__.cpython-311.pyc
+            ├── cli.cpython-311.pyc
+            ├── report.cpython-311.pyc
+            └── synth.cpython-311.pyc
+        ├── legacy/
+            ├── __init__.py
+            ├── build_4p2_docx.py
+            ├── make_moduleA_extras.py
+            ├── make_raw_epoch_example.py
+            ├── make_real_erp_tfr_figs.py
+            ├── moduleB_export_top_features.py
+            ├── moduleB_phaseB_EEG_only.py
+            ├── moduleB_roi_loso.py
+            ├── moduleB_roi_loso_v2.py
+            ├── moduleB_temporal_generalization_v2.py
+            ├── moduleC_finalize.py
+            ├── moduleD_ambiguous_individual_diff.py
+            ├── plot_moduleB_importance_decompose_abscoef_v4.py
+            └── plot_moduleB_maps.py
+        ├── pipelines/
+            ├── __init__.py
+            ├── module_a.py
+            ├── module_b.py
+            ├── module_c.py
+            ├── module_d.py
+            └── run_all.py
+        ├── __init__.py
+        ├── cli.py
+        ├── master_report.py
+        ├── notebook.py
+        ├── privacy.py
+        ├── report.py
+        └── synth.py
+    └── eeg48.egg-info/
+        ├── dependency_links.txt
+        ├── entry_points.txt
+        ├── PKG-INFO
+        ├── requires.txt
+        ├── SOURCES.txt
+        └── top_level.txt
+├── tests/
+    ├── test_cli_help.py
+    └── test_results_card.py
+├── CITATION.cff
+├── LICENSE
+├── pyproject.toml
+├── README.md
+└── TREE.txt

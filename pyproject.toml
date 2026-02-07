@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eeg48"
+version = "0.6.0"
+description = "Public-ready research utilities for EEG48 (reporting, demos, legacy scripts)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Your Name"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+analysis = ["numpy", "pandas", "matplotlib", "scikit-learn", "mne"]
+notebook = ["jupyter", "nbconvert"]
+
+[project.scripts]
+eeg48 = "eeg48.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
